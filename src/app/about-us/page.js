@@ -2,11 +2,12 @@ import AboutSection from '@/Component/AboutSection'
 import React from 'react'
 import Navbar from '../../Component/AboutNavbar'
 import HSection from '@/Component/HSection'
+import ReviewSection from '@/Component/ReviewSection'
 
 
 function Page() {
   return (
-        <div className=' bg-olive-100  h-500'>
+        <div className=' bg-black  '>
        <Navbar/>
      <div className="flex items-center bg-white shadow-md rouded-lg mt-3">
           
@@ -27,6 +28,7 @@ function Page() {
         </div>
          <AboutSection/>
       <HSection/>
+      <ReviewSection/>
          
       
 
