@@ -1,5 +1,5 @@
 import Booking from "@/Component/Booking";
-import Button from "@/Component/Button";
+// import Button from "@/Component/Button";
 import CardSection from "@/Component/CardSection";
 import HeroSection from "@/Component/HeroSection";
 import Navbar from "@/Component/Navbar";
@@ -11,7 +11,7 @@ export default function Home() {
     <HeroSection/>
     <CardSection/>
     <Booking/>
-    <Button/>
+    {/* <Button/> */}
     
     
   </div>

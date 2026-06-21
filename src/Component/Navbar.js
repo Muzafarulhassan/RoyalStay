@@ -5,12 +5,12 @@ import React from 'react'
 function Navbar() {
 
   return (
-    <div className='h-15 bg-white' > 
-      <div><span className="text-2xl font-serif pt-30 text-black">Luxuary Room</span>
-        <Link  href='#home' className='pl-120 text-2xl font-serif text-black '> Home </Link>
-        <Link href='#room' className='pl-20 font-serif text-2xl text-black'>Roomss</Link>
-        {/* <Link href='/about-Us' className='pl-20 font-serif text-2xl text-black'>About-Us</Link> */}
-        <Link href="/about-us" className="pl-20 font-serif text-2xl text-black">About Us</Link>
+    <div className='h-20 bg-white '> 
+      <span className="text-md font-serif justify-between font-bold text-black lg:text-3xl md:text-2xl md:text-xl ">Luxuary Room</span>
+      <div className=' justify-evenly flex '>
+        <Link  href='#home' className='justify-center lg:text-2xl md:text-xl sm:text-base  text-2xl font-serif text-black '> Home </Link>
+        <Link href='#room' className=' font-serif text-2xl text-black lg:text-2xl md:text-xl sm:text-base'>Roomes</Link>
+        <Link href="/about-us" className=" font-serif text-2xl text-black lg:text-2xl md:text-xl sm:text-base">About Us</Link>
         
 
       </div>
