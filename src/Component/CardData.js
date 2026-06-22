@@ -11,7 +11,7 @@ function CardData({title,image,prize ,night}) {
   };
   return (
     <div  className='bg-white text-black  gap-6  py-4 px-4 rounded-lg shadow-md'>
-         <img src={image} className='rounded-xl hover:scale-105 w-90' />
+         <img src={image} className='rounded-xl hover:scale-105 w-80 mr-10'  />
 
       <h1 className='  p-2 mt-2 text-lg'>
         {title}
@@ -19,7 +19,7 @@ function CardData({title,image,prize ,night}) {
         <span>{night}</span>
         
       {message && <div>{message}</div>}
-            <button className='bg-yellow-700 hover:bg-yellow-600 text-white w-90 mt-4 px-20 rounded-xl py-1 font-bold' onClick={showInfo}>view detilas</button>
+            <button className='bg-yellow-700 md:w-70 hover:bg-yellow-600 text-white w-80 mt-4 px-20 rounded-xl  font-bold' onClick={showInfo}>view detilas</button>
         <span id='room'></span>
        </h1>
 
