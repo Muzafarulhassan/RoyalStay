@@ -1,14 +1,15 @@
 import Booking from "@/Component/Booking";
-// import Button from "@/Component/Button";
 import CardSection from "@/Component/CardSection";
 import HeroSection from "@/Component/HeroSection";
 import Navbar from "@/Component/Navbar";
+import RoomCard from "@/Component/HeadingCard";
 
 export default function Home() {
   return (
-  <div >
+  <div className="bg-white">
     <Navbar/>
     <HeroSection/>
+    <RoomCard/>
     <CardSection/>
     <Booking/>
     {/* <Button/> */}

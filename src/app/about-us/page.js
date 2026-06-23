@@ -1,14 +1,15 @@
 import AboutSection from '@/Component/AboutSection'
 import React from 'react'
-import Navbar from '../../Component/AboutNavbar'
 import HSection from '@/Component/HSection'
 import ReviewSection from '@/Component/ReviewSection'
+import ReviewAboutCard from '@/Component/ReviewAboutCard'
+import AboutNavbar from '../../Component/AboutNavbar'
 
 
 function Page() {
   return (
         <div className=' bg-black  '>
-       <Navbar/>
+       <AboutNavbar/>
      <div className="flex  items-center bg-white shadow-md rouded-lg mt-3">
           
          
@@ -28,6 +29,7 @@ function Page() {
         </div>
          <AboutSection/>
       <HSection/>
+      <ReviewAboutCard/>
       <ReviewSection/>
          
       
