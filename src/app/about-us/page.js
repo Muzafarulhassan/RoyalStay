@@ -9,13 +9,13 @@ function Page() {
   return (
         <div className=' bg-black  '>
        <Navbar/>
-     <div className="flex items-center bg-white shadow-md rouded-lg mt-3">
+     <div className="flex  items-center bg-white shadow-md rouded-lg mt-3">
           
          
             
             <div>
-                <h1 className="text-3xl font-bold pt-8 text-black">Welcome Back,Admin </h1>
-                <p className=" text-gray-600 mb-8">Here you can manage your hotel bookings, rooms, and services.</p>
+                <h1 className="text-sm font-bold pt-8 text-black lg-text-lg md:text-md sm:text-sm">Welcome Back,Admin </h1>
+                <p className=" text-gray-600 mb-8 lg-text-lg md:text-md sm:text-sm ">Here you can manage your hotel bookings, rooms, and services.</p>
                
 
               

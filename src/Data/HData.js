@@ -3,7 +3,7 @@ export const HData=[
         id:1,
         title:"Best Hospitality For You",
         text:"We provide the best hospitality experience for  guests.",
-        image:"Images/hospitality.jpg",
+        image:"Images/room.jpg",
     },
      
 ]

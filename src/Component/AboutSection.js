@@ -4,7 +4,7 @@ import AboutCard from './AboutCard'
 
 function AboutSection() {
   return (
-    <div className=' grid grid-cols-4 text-black   '>
+    <div className=' grid  lg:grid-cols-4  md:grid-cols-2 sm:grid-cols-1  grid-cols-1 text-black   '>
        {AboutHeroData.map((item) => (
           <AboutCard
             key={item.id}
